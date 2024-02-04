@@ -1,0 +1,13 @@
+{
+    "path_checkpoints": "../models/checkpoints",
+    "path_loras": "../models/loras",
+    "path_embeddings": "../models/embeddings",
+    "path_vae_approx": "../models/vae_approx",
+    "path_upscale_models": "../models/upscale_models",
+    "path_inpaint": "../models/inpaint",
+    "path_controlnet": "../models/controlnet",
+    "path_clip_vision": "../models/clip_vision",
+    "path_fooocus_expansion": "../models/prompt_expansion/fooocus_expansion",
+    "path_outputs": "../outputs",
+    "default_image_number": 1
+}
