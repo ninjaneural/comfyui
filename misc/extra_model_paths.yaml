@@ -7,6 +7,8 @@ colab:
     clip: /content/models/clip
     clip_vision: /content/models/clip_vision
     ipadapter: /content/ipadapter
+    animatediff_models: /content/animatediff/models
+    animatediff_motion_lora: /content/animatediff/motion_lora
 
 comfyui:
     controlnet: models/controlnet_models
