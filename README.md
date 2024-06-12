@@ -109,3 +109,9 @@
 | [![Open In Colab](https://raw.githubusercontent.com/neuralninja22/colab/master/icons/colab-badge.svg)](https://colab.research.google.com/github/ninjaneural/comfyui/blob/master/sdxl/zavychroma_xl_webui_colab.ipynb) | [![Open In Colab](https://raw.githubusercontent.com/neuralninja22/colab/master/icons/colab-badge-install.svg)](https://colab.research.google.com/github/ninjaneural/comfyui/blob/master/sdxl_install/zavychroma_xl_webui_colab.ipynb) | [ZavyChromaXL](https://civitai.com/models/119229/zavychromaxl)                    |  | 실사                      |
 
 ---
+
+## ComfyUI (기본 SD3)
+
+| 바로실행                                                                                                                                                                                        | 설치버전                                                                                                                                                                                        | Model                                                                                  | VAE  | Memo                    |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- | ---- | ----------------------- |
+| [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ninjaneural/comfyui/blob/master/sd15/sd3_base_webui_colab.ipynb) | | [stable-diffusion-3-medium](https://huggingface.co/stabilityai/stable-diffusion-3-medium)                    |  | 실사                      |
