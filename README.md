@@ -5,6 +5,10 @@
 > SageMaker실행사이트 https://github.com/ninjaneural/sagemaker  
 > Fooocus실행사이트 https://github.com/ninjaneural/fooocus  
 
+# ComfyUI 로컬 PC설치
+
+https://github.com/comfyanonymous/ComfyUI?tab=readme-ov-file#installing
+
 # ComfyUI Colab 목록
 
 ## ComfyUI (기본 SD1.5)
