@@ -130,9 +130,9 @@ https://github.com/comfyanonymous/ComfyUI?tab=readme-ov-file#installing
 
 ## ComfyUI (FLUX)
 
-| 바로실행                                                                                                                                                                                        | 설치버전                                                                                                                                                                                        | Model                                                                                  | VAE  | Memo                    |
+| 바로실행                                                                                                                                                                                        | 설치버전                                                                                                                                                                                        | Model                                                                                  | VAE  | Workflow                    |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- | ---- | ----------------------- |
-| [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ninjaneural/comfyui/blob/master/flux/flux_dev_nf4_webui_colab.ipynb) | | [flux dev(nf4)](https://huggingface.co/lllyasviel/flux1-dev-bnb-nf4)                    |  | 실사                      |
+| [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ninjaneural/comfyui/blob/master/flux/flux_dev_nf4_webui_colab.ipynb) | | [flux dev(nf4)](https://huggingface.co/lllyasviel/flux1-dev-bnb-nf4)                    |  | [Download](https://raw.githubusercontent.com/ninjaneural/comfyui/main/flux/workflow.json)                      |
 
 ---
 
