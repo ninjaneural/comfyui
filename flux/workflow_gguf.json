@@ -1,6 +1,6 @@
 {
-  "last_node_id": 34,
-  "last_link_id": 39,
+  "last_node_id": 36,
+  "last_link_id": 42,
   "nodes": [
     {
       "id": 19,
@@ -43,7 +43,7 @@
           "name": "LATENT",
           "type": "LATENT",
           "links": [
-            26
+            40
           ],
           "slot_index": 0
         }
@@ -52,7 +52,7 @@
         "Node name for S&R": "KSampler"
       },
       "widgets_values": [
-        741039790375202,
+        870325319317641,
         "randomize",
         10,
         1,
@@ -96,7 +96,7 @@
         "Node name for S&R": "CLIPTextEncode"
       },
       "widgets_values": [
-        "beautiful scenery nature glass bottle landscape, , purple galaxy bottle,"
+        "running chick running with a knife, dance with donald trump"
       ]
     },
     {
@@ -138,51 +138,11 @@
       ]
     },
     {
-      "id": 23,
-      "type": "VAEDecode",
-      "pos": [
-        1190,
-        200
-      ],
-      "size": {
-        "0": 210,
-        "1": 46
-      },
-      "flags": {},
-      "order": 9,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "samples",
-          "type": "LATENT",
-          "link": 26
-        },
-        {
-          "name": "vae",
-          "type": "VAE",
-          "link": 37
-        }
-      ],
-      "outputs": [
-        {
-          "name": "IMAGE",
-          "type": "IMAGE",
-          "links": [
-            28
-          ],
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "VAEDecode"
-      }
-    },
-    {
       "id": 24,
       "type": "SaveImage",
       "pos": [
-        1430,
-        200
+        1535,
+        182
       ],
       "size": {
         "0": 601.577392578125,
@@ -195,7 +155,7 @@
         {
           "name": "images",
           "type": "IMAGE",
-          "link": 28
+          "link": 42
         }
       ],
       "properties": {
@@ -382,14 +342,14 @@
         "1": 58
       },
       "flags": {},
-      "order": 3,
+      "order": 4,
       "mode": 0,
       "outputs": [
         {
           "name": "VAE",
           "type": "VAE",
           "links": [
-            37
+            41
           ],
           "slot_index": 0,
           "shape": 3
@@ -414,7 +374,7 @@
         "1": 106
       },
       "flags": {},
-      "order": 4,
+      "order": 3,
       "mode": 0,
       "outputs": [
         {
@@ -434,6 +394,50 @@
         1024,
         1
       ]
+    },
+    {
+      "id": 36,
+      "type": "VAEDecodeTiled",
+      "pos": [
+        1195,
+        188
+      ],
+      "size": {
+        "0": 315,
+        "1": 78
+      },
+      "flags": {},
+      "order": 9,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "samples",
+          "type": "LATENT",
+          "link": 40
+        },
+        {
+          "name": "vae",
+          "type": "VAE",
+          "link": 41
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            42
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "VAEDecodeTiled"
+      },
+      "widgets_values": [
+        512
+      ]
     }
   ],
   "links": [
@@ -452,22 +456,6 @@
       19,
       2,
       "CONDITIONING"
-    ],
-    [
-      26,
-      19,
-      0,
-      23,
-      0,
-      "LATENT"
-    ],
-    [
-      28,
-      23,
-      0,
-      24,
-      0,
-      "IMAGE"
     ],
     [
       29,
@@ -494,14 +482,6 @@
       "CLIP"
     ],
     [
-      37,
-      33,
-      0,
-      23,
-      1,
-      "VAE"
-    ],
-    [
       38,
       34,
       0,
@@ -516,6 +496,30 @@
       19,
       0,
       "MODEL"
+    ],
+    [
+      40,
+      19,
+      0,
+      36,
+      0,
+      "LATENT"
+    ],
+    [
+      41,
+      33,
+      0,
+      36,
+      1,
+      "VAE"
+    ],
+    [
+      42,
+      36,
+      0,
+      24,
+      0,
+      "IMAGE"
     ]
   ],
   "groups": [],
@@ -524,8 +528,8 @@
     "ds": {
       "scale": 0.9090909090909091,
       "offset": [
-        587.8922378700441,
-        204.41180241920887
+        396.49223787004416,
+        200.01180241920886
       ]
     }
   },
