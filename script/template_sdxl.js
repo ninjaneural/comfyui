@@ -88,6 +88,8 @@ async function make_readme2() {
         readme.push(`| [![Open In Colab](https://raw.githubusercontent.com/neuralninja22/colab/master/icons/colab-badge.svg)](https://colab.research.google.com/github/ninjaneural/comfyui/blob/master/sdxl/${item.ipynb}.ipynb) | [![Open In Colab](https://raw.githubusercontent.com/neuralninja22/colab/master/icons/colab-badge-install.svg)](https://colab.research.google.com/github/ninjaneural/comfyui/blob/master/sdxl_install/${item.ipynb}.ipynb) | [${item.name}](${item.model})                    | ${item.bakedVAE ? '' : '선택'} | ${item.type}                      |`)
     });
 
+    readme.push('');
+
     readme.push(`| 바로실행                                                                                                                                                                                        | 설치버전                                                                                                                                                                                         | Model                                                                                  | VAE  | Memo                    |`);
     readme.push(`| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------- | ---- | ----------------------- |`);
     list.filter(x=>x.sdmodel=='pony').forEach((item) => {
